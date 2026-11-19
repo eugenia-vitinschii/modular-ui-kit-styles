@@ -1,0 +1,24 @@
+{
+  "name": "modular-ui-kit-styles",
+  "version": "1.0.0",
+  "description": "Shared SASS/CSS styles and design tokens for Modular UI Kit",
+  "main": "dist/index.css",
+  "style": "dist/index.css",
+  "sass": "styles/lib.sass",
+  "exports": {
+    ".": "./dist/index.css",
+    "./sass": "./styles/lib.sass",
+    "./dist/*": "./dist/*"
+  },
+  "files": [
+    "dist",
+    "styles"
+  ],
+  "scripts": {
+    "build": "sass styles/lib.sass dist/index.css --style=compressed --no-source-map",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "sass": "^1.80.0"
+  }
+}
