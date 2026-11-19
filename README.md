@@ -1,58 +1,29 @@
-/* DESIGN TOKENS (CSS Variables for Customization) */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap')
+# modular-ui-kit-styles
 
-:root
-  /* === Colors: Text === */
-  --muk-text: #eceef2
-  --muk-text-muted: #8a93a6
+[![NPM Version](https://img.shields.io/npm/v/modular-ui-kit-styles?color=42b883)](https://www.npmjs.com/package/modular-ui-kit-styles)
+[![NPM Downloads](https://img.shields.io/npm/dm/modular-ui-kit-styles?color=35495e)](https://www.npmjs.com/package/modular-ui-kit-styles)
+[![GitHub Clones](https://img.shields.io/badge/dynamic/json?color=success&label=Clone&query=count&url=https://gist.githubusercontent.com/eugenia-vitinschii/9c1adedb1baae76cd55970fd012afba7/raw/clone.json&logo=github)](https://github.com/MShawon/github-clone-count-badge)
 
-  /* === Colors: Backgrounds === */
-  --muk-bg: #0b0d11      
-  --muk-bg-soft: #12151c  
-  --muk-bg-card: #171b24  
-  --muk-bg-code: #1e2330  
+Modular UI Kit Styles is a shared styling foundation for the Modular UI Kit ecosystem.
 
-  /* === Colors: Accents & Statuses === */
-  --muk-primary: #6366f1       
-  --muk-primary-hover: #4f46e5
-  --muk-danger: #ff4a6b         
-  --muk-success: #10b981        
-  --muk-warning: #f59e0b        
+It provides a consistent design system with reusable Sass styles, CSS classes, variables, mixins, and design tokens — shared across Vue and React UI component libraries.
 
-  /* === Typography === */
-  --muk-font-family: 'Inter', system-ui, -apple-system, sans-serif
-  --muk-font-heading: 26px
-  --muk-font-subheading: 19px
-  --muk-font-body: 16px
+### Features
 
-  --muk-font-heading-md: 24px
-  --muk-font-subheading-md: 18px
-  --muk-font-body-md: 15px
+- Shared Design System: consistent styling across Vue and React.
 
-  --muk-font-heading-sm: 20px
-  --muk-font-subheading-sm: 16px
-  --muk-font-body-sm: 14px
+- Reusable CSS Classes: common styles and utilities.
 
-  /* === Borders === */
-  --muk-border-color: rgba(236, 238, 242, 0.08)
-  --muk-border-width: 1px
-  --muk-border-style: solid
-  --muk-border-radius: 10px
+- Sass Variables & Mixins: reusable styling logic and design values.
 
-  /* === Space Tokens: Elements (inputs, buttons, icons) === */
-  --muk-space-content-sm: 6px
-  --muk-space-content-md: 10px
-  --muk-space-content-lg: 14px
+- Design Tokens: centralized colors, typography, spacing, borders, and transitions.
 
-  /* === Space Tokens: Containers (forms, cards, sections) === */
-  --muk-space-container-sm: 16px
-  --muk-space-container-md: 24px
-  --muk-space-container-lg: 32px
+- Responsive Typography: fluid typography with responsive breakpoints.
 
-  /* === Design Utilities === */
-  --muk-transition: all 0.3s ease-out
-  --muk-opacity: 0.4
+- Global Reset & Base Styles: consistent styling foundation.
+
+- Modular Structure: styles organized into dedicated sections.
+
+- Customizable Theme: CSS variables for adjusting the visual appearance.
 
 
-
-  
