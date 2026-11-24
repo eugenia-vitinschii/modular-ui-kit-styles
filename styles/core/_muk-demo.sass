@@ -2,7 +2,27 @@
 @use '../abstracts/muk-mixins' as *
 @use '../abstracts/muk-tokens' as *
 
-   
+.buttons-grid
+   display: grid
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+   gap: 10px
+
+.button-card
+   padding: 16px
+
+.button-card-row
+   display: flex
+   align-items: center
+   justify-content: space-between
+   overflow: scroll
+
+
+.demo-nav
+   &__header
+      display: flex
+      justify-content: space-between
+      align-items: center
+      
 .demo-controls--row
    display: flex
    align-items: center
