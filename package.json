@@ -1,6 +1,6 @@
 {
   "name": "modular-ui-kit-styles",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shared SASS/CSS styles and design tokens for Modular UI Kit",
   "main": "dist/index.css",
   "style": "dist/index.css",
