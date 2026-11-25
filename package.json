@@ -10,6 +10,30 @@
     "./sass": "./styles/lib.sass",
     "./dist/*": "./dist/*"
   },
+  "license": "MIT",
+  "keywords": [
+    "ui-kit",
+    "design-system",
+    "design-tokens",
+    "styles",
+    "css",
+    "sass",
+    "scss",
+    "css-variables",
+    "modular-ui-kit",
+    "vue",
+    "react",
+    "components",
+    "responsive",
+    "typography",
+    "layout",
+    "mixins"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenia-vitinschii/modular-ui-kit-styles.git"
+  },
+  "homepage": "https://github.com/eugenia-vitinschii/modular-ui-kit-styles#readme",
   "files": [
     "dist",
     "styles"
